@@ -4,6 +4,7 @@ import './css/portfolio.css'
 import NavBar from  './components/NavBar'
 import Intro from "./components/Intro"
 import RecentPosts from './components/RecentPosts';
+import FeaturedWork from'./components/FeaturedWork';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NavBar> </NavBar>
         <Intro></Intro>
         <RecentPosts></RecentPosts>
+        <FeaturedWork></FeaturedWork>
       </div>
     </div>
   );
