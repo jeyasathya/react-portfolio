@@ -5,7 +5,7 @@ import NavBar from  './components/NavBar'
 import Intro from "./components/Intro"
 import RecentPosts from './components/RecentPosts';
 import FeaturedWork from'./components/FeaturedWork';
-
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
@@ -14,6 +14,7 @@ function App() {
         <Intro></Intro>
         <RecentPosts></RecentPosts>
         <FeaturedWork></FeaturedWork>
+        <Footer></Footer>
       </div>
     </div>
   );

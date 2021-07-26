@@ -1,7 +1,11 @@
+import FeaturedWork from "./FeaturedWork"
 
 function Work(props){
+    let image = <img src={"img/Rectangle_"+ props.workId+".png"}/>
+    console.log(image);
  return(<div className="work">
-    <div className="work-img" >{props.image}</div>
+    <div className="work-img" >{image}
+    </div>
     <div className="work-ctn">
         <div className="work-head">{props.head}</div>
         <div className="work-info">

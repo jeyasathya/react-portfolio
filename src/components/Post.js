@@ -1,7 +1,10 @@
+import RecentPosts from "./RecentPosts";
+
 function Post(props) {
-    let margin = props.key === 1 ? "marginLeft: 148" : "marginRight: 148"
+    let margin = props.postId === 1 ? {marginLeft: "148"} : {marginRight: "148"};
+    console.log(margin);
     return (
-        <div className="post" style= {{ margin }} >
+        <div className="post" style= { margin}  >
             <div className="post-header"> { props.title } </div>
             <div className="post-info">
                 <span className="post-date"> {props.date} </span>
